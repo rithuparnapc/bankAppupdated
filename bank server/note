@@ -1,0 +1,54 @@
+     SERVER CREATION
+      
+ Basic commands
+ 1 Create pakage.json - npm init
+ 2 Create Nodemodule -
+    install Express - npm i Express
+
+ Basic steps
+ 1 Creating a folder -(Bakserver)
+ 3 Create a package.json file( npm init)
+ 4 Create index.js file
+ 5 Import express indexfile 
+ 6 Create app using express
+ 7 Set up port number
+ 8 Resolving http request
+ 9 Install nodemon - npm i -g nodemon
+ 10 Http request code 
+    1xx - Information
+    2xx - Successful
+    3xx - Redirection
+    4xx - Client error
+    5xx - Server error
+
+ 11 JWT Token - Authentication
+  to check login or not?
+  login ------>token gnerate----->client----->req to deposit+token---->server token check? 
+  install JWT Token- jsonwebtoken
+  npm i jsonwebtoken  
+  to generate a new JWT Token - sign()
+
+  12 Middleware - To verify  the token
+
+  -it comes in the middle of the request  and response
+  -it also provides access to many functions
+       1. Application - level middleware
+       - For entire application
+       2. Router -level middleware
+       -to verify the token
+       -to validate the token- verify()
+
+   13) Database integration
+      1)install mongoose  - npm i mongoose (for connecting nodejs and mongodb)
+      2)  DB Connect via mongoos
+      3)create a model using mongoose
+
+    14) Asynchronous function resolving
+       1)Resolving state - then()
+       2)Rejection state - catch()  
+
+   CORS - Cross Origin Resourse Sharing
+   install cors - npm i cors    
+
+
+
